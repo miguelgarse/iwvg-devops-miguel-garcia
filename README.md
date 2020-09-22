@@ -3,6 +3,7 @@
 > Este proyecto es una Plantilla de apoyo docente de la asignatura.
 
 ### Estado del código
+[![Build Status](https://travis-ci.org/miguelgarse/iwvg-devops-miguel-garcia.svg?branch=develop)](https://travis-ci.org/miguelgarse/iwvg-devops-miguel-garcia)
 
 ### Tecnologías necesarias
 `Java` `Maven` `GitHub` `Travis-ci` `Sonarcloud` `Better Code Hub` `Spring-boot` `Heroku` `OpenAPI`
