@@ -2,6 +2,11 @@
 ## Ingeniería Web: Visión General (IWVG) DevOps
 > Este proyecto es una Plantilla de apoyo docente de la asignatura.
 
+### Estado del código
+
+### Tecnologías necesarias
+`Java` `Maven` `GitHub` `Travis-ci` `Sonarcloud` `Better Code Hub` `Spring-boot` `Heroku` `OpenAPI`
+
 ### :gear: Instalación del proyecto
 1. Clonar el repositorio en tu equipo, **mediante consola**:
 ```sh
@@ -12,3 +17,5 @@
    1. **Import Project**, y seleccionar la carpeta del proyecto.
    1. Marcar **Create Project from external model**, elegir **Maven**.
    1. **Next** … **Finish**.
+   
+   
