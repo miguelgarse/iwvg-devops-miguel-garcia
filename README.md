@@ -5,6 +5,7 @@
 ### Estado del código
 [![Build Status](https://travis-ci.org/miguelgarse/iwvg-devops-miguel-garcia.svg?branch=develop)](https://travis-ci.org/miguelgarse/iwvg-devops-miguel-garcia)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=es.upm.miw%3Aiwvg-devops-miguel-garcia&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=es.upm.miw%3Aiwvg-devops-miguel-garcia)
+[![BCH compliance](https://bettercodehub.com/edge/badge/miguelgarse/iwvg-devops-miguel-garcia?branch=develop)](https://bettercodehub.com/)
 
 ### Tecnologías necesarias
 `Java` `Maven` `GitHub` `Travis-ci` `Sonarcloud` `Better Code Hub` `Spring-boot` `Heroku` `OpenAPI`
