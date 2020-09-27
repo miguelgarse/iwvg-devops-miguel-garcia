@@ -34,8 +34,8 @@ public class UserTest {
         User user = new User("1234", "Miguel", "Garcia Serrano", new ArrayList<>());
         String fullName = user.fullName();
 
-        assertNotNull(fullname);
-        assertEquals("Miguel Garcia Serrano", fullname);
+        assertNotNull(fullName);
+        assertEquals("Miguel Garcia Serrano", fullName);
     }
 
     @Test
