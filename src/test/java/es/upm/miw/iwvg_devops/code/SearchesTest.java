@@ -31,4 +31,14 @@ public class SearchesTest {
 
         assertTrue(familyNameList.containsAll(searchResult.collect(Collectors.toList())));
     }
+
+    @Test
+    void testFindUserNameByAnyImproperFraction(){
+        Searches searches = new Searches();
+        List<String> familyNameList = Arrays.asList("Oscar", "Ana", "Antonio", "Paula");
+
+        Stream<String> searchResult = searches.findUserNameByAnyImproperFraction();
+
+        assertTrue(familyNameList.containsAll(searchResult.collect(Collectors.toList())));
+    }
 }

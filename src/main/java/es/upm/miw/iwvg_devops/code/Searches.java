@@ -22,4 +22,12 @@ public class Searches {
                 .peek(x -> LogManager.getLogger(this.getClass()).info("Family name: " + x));
     }
 
+    public Stream<String> findUserNameByAnyImproperFraction() {
+        return new UsersDatabase().findAll()
+                .filter(user -> user.getFractions().stream().anyMatch(Fraction::isImproper))
+                .map(User::getName)
+                .distinct()
+                .peek(x -> LogManager.getLogger(this.getClass()).info("User name: " + x));
+    }
+
 }
