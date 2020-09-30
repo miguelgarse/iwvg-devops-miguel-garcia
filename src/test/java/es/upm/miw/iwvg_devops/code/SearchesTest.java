@@ -1,9 +1,7 @@
 package es.upm.miw.iwvg_devops.code;
 
-import org.apache.logging.log4j.LogManager;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -54,5 +52,4 @@ public class SearchesTest {
             assertEquals(decimalList.get(i), searchResult.get(i), 0.001);
         }
     }
-
 }
