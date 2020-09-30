@@ -30,4 +30,12 @@ public class Searches {
                 .peek(x -> LogManager.getLogger(this.getClass()).info("User name: " + x));
     }
 
+    public Stream<Double> findDecimalFractionByUserName(String name) {
+        return new UsersDatabase().findAll()
+                .filter(user -> name.equals(user.getName()))
+                .flatMap(user -> user.getFractions().stream())
+                .map(Fraction::decimal)
+                .peek(x -> LogManager.getLogger(this.getClass()).info("Decimal: " + x));
+    }
+
 }
